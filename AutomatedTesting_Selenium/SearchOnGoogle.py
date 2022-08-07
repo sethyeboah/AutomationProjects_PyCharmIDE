@@ -25,7 +25,7 @@ driver.get(url)
 # inputTextInSearchBox = driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")
 # inputTextInSearchBox = driver.find_element(By .XPATH, "//input[@class='gLFyf gsfi']")
 inputTextInSearchBox = driver.find_element(By .XPATH, "//div[@class='a4bIc']/input[1]")
-inputTextInSearchBox.send_keys("LinkedIn Login")
+inputTextInSearchBox.send_keys("Facebook Login")
 inputTextInSearchBox.send_keys(Keys.ENTER)
 
 time.sleep(5)
